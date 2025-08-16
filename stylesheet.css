@@ -1,0 +1,17 @@
+body {
+ color: red;
+}
+
+ul {
+  list-style-type:none;
+}
+
+a {
+ color: red;
+ display:inline-block;
+ margin:10px;
+}
+
+a: hover{
+ transform:rotate(-10deg)
+}
