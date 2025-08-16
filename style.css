@@ -1,3 +1,14 @@
 body {
-color: green;
+ color: red;
+}
+
+a {
+ color: green;
+ display:inline-block;
+ margin:10px;
+}
+
+a:hover{
+ color: blue;
+ transform:rotate(-10deg);
 }
