@@ -1,14 +1,28 @@
 body {
- color: red;
+	background-image: url("Assets/Backgrounds/DarkPurpleFlowers.gif");
+	background-size: 80%;
+}
+
+.mainbar {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 75%;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border: 5px solid limegreen;
+	background-color: darkslategray;
 }
 
 a {
- color: green;
- display:inline-block;
- margin:10px;
+	color: green;
+	display: inline-block;
+	margin: 10px;
 }
 
-a:hover{
- color: blue;
- transform:rotate(-10deg);
+a:hover {
+	color: blue;
+	transform: rotate(-10deg);
 }
