@@ -1,0 +1,46 @@
+body {
+	background-image: url("Assets/General/Backgrounds/YellowBalls.gif");
+	background-size: 16%;
+}
+
+
+.up {
+	transform: translateY(-3rem);
+}
+
+
+.header {
+	display: flex;
+	position: relative;
+	box-sizing: border-box;
+	justify-content: center;
+
+	width: 100%;
+	height: 5.4rem;
+
+	background-color: rgb(33, 35, 46);
+	color: rgb(255, 221, 39);
+
+	font-family: "Header";
+	font-size: 400%;
+}
+
+
+.mainbar {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 75%;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border: 5px solid limegreen;
+	background-color: darkslategray;
+}
+
+
+@font-face {
+	font-family: "Header";
+	src: url("Assets/General/Fonts/SundayVibe.ttf") format("truetype");
+}
