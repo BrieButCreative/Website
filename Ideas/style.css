@@ -40,7 +40,18 @@ body {
 }
 
 
+.headline {
+	font-family: "Headline";
+}
+
+
 @font-face {
 	font-family: "Header";
 	src: url("Assets/General/Fonts/SundayVibe.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family: "Headline";
+	src: url("Assets/General/Fonts/Super\ Kindly.ttf") format("truetype");
 }
