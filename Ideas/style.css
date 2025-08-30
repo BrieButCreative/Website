@@ -37,11 +37,15 @@ body {
 
 	border: 5px solid limegreen;
 	background-color: darkslategray;
+
+	color: rgb(188, 255, 93);
 }
 
 
 .headline {
 	font-family: "Headline";
+
+	color: rgb(255, 230, 38);
 }
 
 
