@@ -1,0 +1,37 @@
+body {
+	background-color: rgb(15, 15, 30);
+	color: rgb(170, 170, 230);
+}
+
+.GOATS {
+	display: block;
+	position: fixed;
+	width: 110%;
+	top: 0px;
+	margin-left: -5%;
+
+
+	font-size: 30px;
+	background-color: rgb(255, 120, 95);
+	color: rgb(0, 20, 50);
+}
+
+.GOATS_bottom {
+	display: block;
+	position: fixed;
+	width: 110%;
+	bottom: 0px;
+	margin-left: -5%;
+
+
+	font-size: 30px;
+	background-color: rgb(255, 120, 95);
+	color: rgb(0, 20, 50);
+}
+
+.spam {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	white-space: pre;
+}
