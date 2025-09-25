@@ -26,3 +26,13 @@ a:hover {
 	color: blue;
 	transform: rotate(-10deg);
 }
+
+.language {
+	font-family: "Languages";
+	font-size: 110%
+}
+
+@font-face {
+	font-family: "Languages";
+	src: url("Assets/General/Fonts/Tempting\ -\ PERSONAL\ USE\ ONLY.ttf") format("truetype");
+}
