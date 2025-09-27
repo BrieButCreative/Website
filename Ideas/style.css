@@ -4,6 +4,22 @@ body {
 }
 
 
+li li {
+	list-style: none;
+}
+
+li li::before {
+	content: '';
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	background-image: url('Assets/Ideas/listitem.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 0.5em -0.25em -1em;
+}
+
+
 .up {
 	transform: translateY(-3rem);
 }
@@ -36,7 +52,7 @@ body {
 	padding-right: 10px;
 
 	border: 5px solid limegreen;
-	background-color: darkslategray;
+	background-color: rgb(47, 79, 79);
 
 	color: rgb(188, 255, 93);
 }
