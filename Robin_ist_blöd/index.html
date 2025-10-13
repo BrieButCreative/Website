@@ -8,9 +8,10 @@
 
 	<link rel="icon" href="Assets/General/Icons/Goat.ico" />
 	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="Assets/CodeSnippets/back_button.css" />
 
-	<script src="marquee.js"></script>
-	<script defer="defer" src="marquee_setup.js"></script>
+	<script src="Assets/CodeSnippets/marquee.js"></script>
+	<script defer="defer" src="Assets/CodeSnippets/marquee_setup.js"></script>
 
 	<meta property="og:image" content="Assets/General/Images/Goat.gif" />
 	<meta property="twitter:card" content="summary_large_image" />
@@ -30,11 +31,8 @@
 		</div>
 	</div>
 	<script src="infinity_scroll.js"></script>
-	<div class="back">
+	<div class="back" style="bottom: 6%">
 		<img id="back_button" height=120% width=120% src="Assets/General/UI/back_arrow_white_pudding.gif">
-		<script>
-			let button = document.getElementById("back_button")
-			button.addEventListener("click", () => {window.location.href = ".."})
-		</script>
+		<script src="Assets/CodeSnippets/back_button.js"></script>
 	</div>
 </body>
