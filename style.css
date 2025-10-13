@@ -3,6 +3,23 @@ body {
 	background-size: 80%;
 }
 
+
+a {
+	color: #beff00;
+	display: inline-block;
+	margin: 0.5%;
+}
+
+a:hover {
+	color: #e1f0a0;
+	transform: rotate(-10deg);
+}
+
+.language {
+	font-family: "Languages";
+	font-size: 110%
+}
+
 .mainbar {
 	display: block;
 	position: relative;
@@ -17,20 +34,11 @@ body {
 	color: #CDF100;
 }
 
-a {
-	color: #beff00;
-	display: inline-block;
-	margin: 10px;
-}
+.back {
+	position: fixed;
 
-a:hover {
-	color: #e1f0a0;
-	transform: rotate(-10deg);
-}
-
-.language {
-	font-family: "Languages";
-	font-size: 110%
+	bottom: 2%;
+	left: 2%;
 }
 
 @font-face {
