@@ -13,17 +13,18 @@ body {
 	padding-right: 10px;
 
 	border: 5px solid limegreen;
-	background-color: darkslategray;
+	background-color: #564508;
+	color: #CDF100;
 }
 
 a {
-	color: green;
+	color: #beff00;
 	display: inline-block;
 	margin: 10px;
 }
 
 a:hover {
-	color: blue;
+	color: #e1f0a0;
 	transform: rotate(-10deg);
 }
 
