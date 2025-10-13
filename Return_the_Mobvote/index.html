@@ -13,6 +13,14 @@
 <body>
   <p>My content here!</p>
   <p> <img height="140" width="200" src="Assets/Minecraft_Fun/Return_the_Mobvote_Logo.gif"> </p>
+
+  <div class="back">
+    <img id="back_button" height=120% width=120% src="Assets/General/UI/back_arrow_white_pudding.gif">
+    <script>
+      let button = document.getElementById("back_button")
+      button.addEventListener("click", () => {window.location.href = ".."})
+    </script>
+  </div>
 </body>
 
 </html>
