@@ -8,6 +8,7 @@ a {
 	color: #beff00;
 	display: inline-block;
 	margin: 0.5%;
+	cursor: cell;
 }
 
 a:hover {
